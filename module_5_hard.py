@@ -4,6 +4,7 @@ import hashlib
 import time
 
 
+
 class User:
     """ Класс пользователя, содержащий атрибуты: логин, пароль """
     def __init__(self, username, password, age):
