@@ -59,7 +59,7 @@ class UrTube:
         new_user = User (username,password,age)
         self.users.append(new_user)
         self.current_user = new_user
-        # print(f'Пользователь {username} зарегистрирован и вошел в систему')
+        print(f'Пользователь {username} зарегистрирован и вошел в систему')
 
     def log_out(self):
         self.current_user = None
